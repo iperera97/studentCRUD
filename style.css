@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: Sans-serif;
+}
+
+body {
+	font-size: 17px;
+}
+
+/*common styles goes here*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+#go_records {
+	display: block;
+	color: #5196CC;
+	font-weight: 800;
+}
+
+.match {
+	color : #515959;
+}
+
+span {
+	color: #4CAF50
+}
+
+.err {
+	color: tomato;
+}
+
+.success {
+	color : #4CAF50;
+}
+
+#go_records,
+.err,
+.success,
+.match {
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 25px 0;
+}
+
+
+/*header goes here*/
+
+header {
+	margin: 25px 0;
+}
+
+header h1 {
+	color: #1D8BEC;
+	text-align: center;
+	margin: 20px 0;
+}
+
+/*search bar goes here*/
+
+#search {
+	width: 75%;
+	display: block;
+	margin: 25px auto;
+}
+
+#search select,
+#search input[type="submit"] {
+	width: 24%;
+	text-align-last: center;
+	padding: 10px 0;
+}
+
+#search input[name="searchVal"] {
+	width: 50%;
+	padding: 10px 0;
+}
+
+/*table goes here*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+table tr td:nth-child(1) {
+	width: 20px;
+	font-size: 12px;
+}
+
+table th {
+    padding: 15px;
+    text-align: left;
+    background-color: #5196CC;
+    color: white;
+}
+
+table tr td > a {
+	color: tomato;
+	font-weight: 700;
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+/*pagination goes here*/
+#pagination {
+	width: 250px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+#pagination li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#pagination li a.active {
+	color: #5196CC;
+	font-size: 30px;
+}
+
+
+/*edit*/
+#edit {
+	width: 40%;
+	margin: 50px auto;
+}
+
+#edit fieldset {
+	border: none;
+	margin: 10px 0;
+}
+
+#edit input {
+	width: 100%;
+	padding: 10px 0;
+	text-transform: capitalize;
+    border: 1px solid #808080;
+}
+
+#edit input[type="submit"] {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
