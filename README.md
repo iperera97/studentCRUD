@@ -1,1 +1,1 @@
-# studentCRUD
+## student details ( CRUD APPLICATION )
